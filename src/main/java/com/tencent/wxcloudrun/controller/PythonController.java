@@ -3,9 +3,10 @@ package com.tencent.wxcloudrun.controller;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.example.common.Result;
-import com.example.entity.Python;
-import com.example.service.PythonService;
+
+import com.tencent.wxcloudrun.config.Result;
+import com.tencent.wxcloudrun.entity.Python;
+import com.tencent.wxcloudrun.service.PythonService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
