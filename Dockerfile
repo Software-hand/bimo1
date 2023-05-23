@@ -32,7 +32,7 @@ RUN apk add tzdata && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && ech
 RUN apk add ca-certificates
 
 # 指定运行时的工作目录
-WORKDIR /src
+WORKDIR /app
 
 # 将构建产物jar包拷贝到运行时目录中
 COPY --from=build /app/target/*.jar .
